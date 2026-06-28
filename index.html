@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness SF | The Unisex Gym</title>
+    
+    <meta name="description" content="Experience world-class premium fitness at Fitness SF, Srinagar's finest unisex gym. Modern equipment, certified trainers, and a luxury workout environment.">
+    <meta name="keywords" content="Gym, Fitness, Unisex Gym, Srinagar Gym, Premium Fitness, Fitness SF">
+    
+
+    <meta property="og:title" content="Fitness SF | Premium Unisex Gym">
+    <meta property="og:description" content="Experience world-class premium fitness at Fitness SF, Srinagar's finest unisex gym.">
+    <meta property="og:image" content="assets/images/hero-bg.jpg">
+    <meta property="og:url" content="https://fitnesssf.com">
+        <link rel="icon" href="assets/images/favicon.png" type="image/png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <div class="scroll-progress"></div>
+
+    <div class="loader-wrapper">
+        <div class="loader-content">
+            <div class="loader-logo">FITNESS SF</div>
+            <div class="loader-bar-container">
+                <div class="loader-bar"></div>
+            </div>
+            <div class="loader-percentage">0%</div>
+        </div>
+        <div class="loader-bg-overlay"></div>
+    </div>
+
+    <header class="header glass">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <img src="assets/images/logo.png" alt="Fitness SF Logo" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iNDAiPjx0ZXh0IHk9IjIwIiBmaWxsPSIjZmZmIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCI+RklUTkVTUyBTRjwvdGV4dD48L3N2Zz4='">
+            </a>
+            <nav class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#equipment" class="nav-link">Equipment</a>
+                <a href="#membership" class="nav-link">Plans</a>
+                <a href="#trainers" class="nav-link">Trainers</a>
+                <a href="#reviews" class="nav-link">Reviews</a>
+            </nav>
+            <a href="#contact" class="btn btn-primary nav-cta">Book Free Trial</a>
+            
+            <button class="mobile-menu-btn">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu glass">
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#equipment" class="mobile-link">Equipment</a>
+            <a href="#membership" class="mobile-link">Plans</a>
+            <a href="#trainers" class="mobile-link">Trainers</a>
+            <a href="#reviews" class="mobile-link">Reviews</a>
+            <a href="#contact" class="btn btn-primary mobile-cta">Book Free Trial</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="hero" class="hero">
+            <div class="hero-bg parallax-bg">
+                
+                <div class="hero-bg-image" style="background-image: url('assets/images/hero-bg.jpg');"></div>
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-particles" id="particles-container"></div>
+            
+            <div class="hero-content">
+                <div class="hero-text-wrapper">
+                    <h1 class="hero-title reveal-text">
+                        <span class="text-line">FITNESS SF</span>
+                        <span class="text-line highlight">THE UNISEX GYM</span>
+                    </h1>
+                    <p class="hero-subtitle reveal-fade">Train Together. Grow Together. Become Stronger.</p>
+                    
+                    <div class="hero-actions reveal-fade">
+                        <a href="#membership" class="btn btn-primary btn-glow">
+                            Join Now <i class="ph ph-arrow-right"></i>
+                        </a>
+                        <a href="https://wa.me/919906195114" target="_blank" class="btn btn-outline glass-btn">
+                            <i class="ph ph-whatsapp-logo"></i> WhatsApp
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-athlete parallax-fg">
+                    <img src="assets/images/hero-athlete.png" alt="Fitness Athlete" class="athlete-img" onerror="this.style.display='none'">
+                </div>
+            </div>
+
+            <div class="scroll-indicator">
+                <span class="scroll-text">Scroll to explore</span>
+                <div class="mouse-icon">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="stats" class="stats">
+            <div class="stats-container">
+                <div class="stat-card glass tilt-card">
+                    <div class="stat-icon"><i class="ph ph-star"></i></div>
+                    <h3 class="stat-number"><span class="counter" data-target="4.8">0</span>★</h3>
+                    <p class="stat-label">Google Rating</p>
+                </div>
+                <div class="stat-card glass tilt-card">
+                    <div class="stat-icon"><i class="ph ph-users"></i></div>
+                    <h3 class="stat-number"><span class="counter" data-target="1000">0</span>+</h3>
+                    <p class="stat-label">Happy Members</p>
+                </div>
+                <div class="stat-card glass tilt-card">
+                    <div class="stat-icon"><i class="ph ph-barbell"></i></div>
+                    <h3 class="stat-number">Premium</h3>
+                    <p class="stat-label">Facility & Equipment</p>
+                </div>
+                <div class="stat-card glass tilt-card">
+                    <div class="stat-icon"><i class="ph ph-certificate"></i></div>
+                    <h3 class="stat-number">Certified</h3>
+                    <p class="stat-label">Trainers</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-container split-layout">
+                <div class="about-content">
+                    <div class="section-badge reveal-up">The Standard</div>
+                    <h2 class="section-title reveal-text">Redefining <span class="highlight">Fitness</span> in Srinagar</h2>
+                    <p class="about-desc reveal-up">
+                        Fitness SF is not just a gym; it's a premium lifestyle destination designed for both men and women. We've curated a safe, supportive, and highly motivating unisex environment where the community thrives on positivity and results.
+                    </p>
+                    <ul class="about-list reveal-up">
+                        <li><i class="ph-fill ph-check-circle"></i> Safe and welcoming for women</li>
+                        <li><i class="ph-fill ph-check-circle"></i> World-class premium equipment</li>
+                        <li><i class="ph-fill ph-check-circle"></i> Positive and clean workout space</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline btn-hover-fill mt-4 reveal-up">Discover More</a>
+                </div>
+                <div class="about-visual parallax-container reveal-scale">
+                    <div class="about-image-wrapper glass-border">
+                        <img src="assets/images/gallery1.jpg" alt="About Fitness SF" onerror="this.src='https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1000&auto=format&fit=crop'">
+                        <div class="floating-badge glass">
+                            <i class="ph-fill ph-shield-check"></i>
+                            <span>Premium Quality</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY CHOOSE US (Bento Grid) -->
+        <section id="features" class="features">
+            <div class="section-header text-center">
+                <h2 class="section-title reveal-text">Why Choose <span class="highlight">Us</span></h2>
+                <p class="section-subtitle reveal-up">Experience fitness at a level you've never seen before.</p>
+            </div>
+            
+            <div class="bento-grid">
+                <div class="bento-item bento-large glass tilt-card reveal-up">
+                    <div class="bento-content">
+                        <i class="ph ph-barbell bento-icon"></i>
+                        <h3>Modern Equipment</h3>
+                        <p>State-of-the-art machines designed for perfect biomechanics and safety.</p>
+                    </div>
+                    <div class="bento-bg" style="background-image: url('assets/images/equipment1.jpg');"></div>
+                </div>
+                
+                <div class="bento-item glass tilt-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="bento-content">
+                        <i class="ph ph-gender-intersex bento-icon"></i>
+                        <h3>Women's Friendly</h3>
+                        <p>A highly respectful and safe workout space for everyone.</p>
+                    </div>
+                </div>
+                
+                <div class="bento-item glass tilt-card reveal-up" style="transition-delay: 0.2s;">
+                    <div class="bento-content">
+                        <i class="ph ph-drop bento-icon"></i>
+                        <h3>Clean Environment</h3>
+                        <p>Immaculate hygiene and premium changing rooms.</p>
+                    </div>
+                </div>
+                
+                <div class="bento-item bento-wide glass tilt-card reveal-up">
+                    <div class="bento-content">
+                        <i class="ph ph-users-three bento-icon"></i>
+                        <h3>Professional Trainers & Personal Training</h3>
+                        <p>Our certified experts provide custom diet guidance and 1-on-1 coaching to guarantee your transformation.</p>
+                    </div>
+                    <div class="bento-bg" style="background-image: url('assets/images/trainer1.jpg');"></div>
+                </div>
+                
+                <div class="bento-item glass tilt-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="bento-content">
+                        <i class="ph ph-heartbeat bento-icon"></i>
+                        <h3>Positive Community</h3>
+                        <p>A motivating atmosphere that pushes you further.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EQUIPMENT GALLERY (Masonry) -->
+        <section id="equipment" class="equipment">
+            <div class="section-header">
+                <h2 class="section-title reveal-text">Premium <span class="highlight">Arsenal</span></h2>
+                <p class="section-subtitle reveal-up">Imported machinery tailored for elite performance.</p>
+            </div>
+            
+            <div class="masonry-gallery">
+                <div class="masonry-item reveal-scale">
+                    <img src="assets/images/equipment1.jpg" alt="Equipment" onerror="this.src='https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=800&auto=format&fit=crop'">
+                    <div class="item-overlay glass"><span>Strength</span></div>
+                </div>
+                <div class="masonry-item reveal-scale">
+                    <img src="assets/images/equipment2.jpg" alt="Equipment" onerror="this.src='https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=800&auto=format&fit=crop'">
+                    <div class="item-overlay glass"><span>Cardio</span></div>
+                </div>
+                <div class="masonry-item reveal-scale">
+                    <img src="assets/images/equipment3.jpg" alt="Equipment" onerror="this.src='https://images.unsplash.com/photo-1576678927484-cc907957088c?q=80&w=800&auto=format&fit=crop'">
+                    <div class="item-overlay glass"><span>Free Weights</span></div>
+                </div>
+                <div class="masonry-item reveal-scale">
+                    <img src="assets/images/equipment4.jpg" alt="Equipment" onerror="this.src='https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=800&auto=format&fit=crop'">
+                    <div class="item-overlay glass"><span>Functional</span></div>
+                </div>
+                <div class="masonry-item reveal-scale">
+                    <img src="assets/images/equipment5.jpg" alt="Equipment" onerror="this.src='https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=800&auto=format&fit=crop'">
+                    <div class="item-overlay glass"><span>Machines</span></div>
+                </div>
+                <div class="masonry-item reveal-scale">
+                    <img src="assets/images/equipment6.jpg" alt="Equipment" onerror="this.src='https://images.unsplash.com/photo-1596357395217-80de13130e92?q=80&w=800&auto=format&fit=crop'">
+                    <div class="item-overlay glass"><span>Studio</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEMBERSHIP (Pricing Cards) -->
+        <section id="membership" class="membership">
+            <div class="section-header text-center">
+                <h2 class="section-title reveal-text">Elevate Your <span class="highlight">Lifestyle</span></h2>
+                <p class="section-subtitle reveal-up">Choose the plan that fits your journey.</p>
+            </div>
+            
+            <div class="pricing-container">
+                <!-- Basic -->
+                <div class="pricing-card glass reveal-up">
+                    <div class="card-header">
+                        <h3>Basic</h3>
+                        <div class="price">₹1,999<span>/mo</span></div>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="ph ph-check"></i> Gym Access (Off-peak)</li>
+                        <li><i class="ph ph-check"></i> Locker Room Access</li>
+                        <li><i class="ph ph-check"></i> General Guidance</li>
+                        <li class="disabled"><i class="ph ph-x"></i> Diet Plan</li>
+                        <li class="disabled"><i class="ph ph-x"></i> Personal Trainer</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline w-100">Select Plan</a>
+                </div>
+                
+                <!-- Premium (Popular) -->
+                <div class="pricing-card glass popular reveal-up" style="transition-delay: 0.1s;">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="card-header">
+                        <h3>Premium</h3>
+                        <div class="price">₹3,499<span>/mo</span></div>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="ph ph-check"></i> 24/7 Gym Access</li>
+                        <li><i class="ph ph-check"></i> Premium Locker Room</li>
+                        <li><i class="ph ph-check"></i> Custom Diet Plan</li>
+                        <li><i class="ph ph-check"></i> Monthly Body Analysis</li>
+                        <li class="disabled"><i class="ph ph-x"></i> Personal Trainer</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary btn-glow w-100">Select Plan</a>
+                </div>
+                
+                <!-- Elite -->
+                <div class="pricing-card glass reveal-up" style="transition-delay: 0.2s;">
+                    <div class="card-header">
+                        <h3>Elite</h3>
+                        <div class="price">₹6,999<span>/mo</span></div>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="ph ph-check"></i> All Premium Features</li>
+                        <li><i class="ph ph-check"></i> Dedicated Personal Trainer</li>
+                        <li><i class="ph ph-check"></i> Advanced Nutrition Tracking</li>
+                        <li><i class="ph ph-check"></i> Supplement Guidance</li>
+                        <li><i class="ph ph-check"></i> Priority Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline w-100">Select Plan</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- TRAINERS (Horizontal Slider) -->
+        <section id="trainers" class="trainers">
+            <div class="section-header">
+                <h2 class="section-title reveal-text">Meet the <span class="highlight">Experts</span></h2>
+            </div>
+            
+            <div class="swiper trainers-slider reveal-up">
+                <div class="swiper-wrapper">
+                    <!-- Trainer 1 -->
+                    <div class="swiper-slide">
+                        <div class="trainer-card glass">
+                            <div class="trainer-img-wrapper">
+                                <img src="assets/images/trainer1.jpg" alt="Trainer" onerror="this.src='https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=400&auto=format&fit=crop'">
+                            </div>
+                            <div class="trainer-info">
+                                <h3>Arif Khan</h3>
+                                <p class="specialty">Head Strength Coach</p>
+                                <p class="philosophy">"Discipline bridges the gap between goals and accomplishments."</p>
+                                <div class="trainer-socials">
+                                    <a href="#"><i class="ph ph-instagram-logo"></i></a>
+                                    <a href="#"><i class="ph ph-facebook-logo"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Trainer 2 -->
+                    <div class="swiper-slide">
+                        <div class="trainer-card glass">
+                            <div class="trainer-img-wrapper">
+                                <img src="assets/images/trainer2.jpg" alt="Trainer" onerror="this.src='https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=400&auto=format&fit=crop'">
+                            </div>
+                            <div class="trainer-info">
+                                <h3>Sarah Ahmed</h3>
+                                <p class="specialty">Fitness & Nutrition Specialist</p>
+                                <p class="philosophy">"Empowering women to lift heavy and live healthier."</p>
+                                <div class="trainer-socials">
+                                    <a href="#"><i class="ph ph-instagram-logo"></i></a>
+                                    <a href="#"><i class="ph ph-facebook-logo"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more slides as needed -->
+                </div>
+                <!-- Pagination -->
+                <div class="swiper-pagination trainers-pagination"></div>
+            </div>
+        </section>
+
+        <!-- TRANSFORMATIONS (Before/After Slider) -->
+        <section id="transformations" class="transformations">
+            <div class="section-header text-center">
+                <h2 class="section-title reveal-text">Real <span class="highlight">Results</span></h2>
+                <p class="section-subtitle reveal-up">Witness the power of consistency.</p>
+            </div>
+            
+            <div class="swiper transform-slider reveal-scale">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="ba-slider">
+                            <img src="assets/images/after1.jpg" class="after-img" alt="After" onerror="this.src='https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=800&auto=format&fit=crop'">
+                            <div class="resize-box">
+                                <img src="assets/images/before1.jpg" class="before-img" alt="Before" onerror="this.src='https://images.unsplash.com/photo-1616803689943-5601631c7fec?q=80&w=800&auto=format&fit=crop'">
+                            </div>
+                            <div class="slider-handle"><i class="ph ph-arrows-left-right"></i></div>
+                            <div class="ba-labels">
+                                <span class="lbl-before">Before</span>
+                                <span class="lbl-after">After</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Duplicate for more examples if needed -->
+                </div>
+                <div class="swiper-navigation">
+                    <div class="swiper-button-prev-transform glass-btn"><i class="ph ph-arrow-left"></i></div>
+                    <div class="swiper-button-next-transform glass-btn"><i class="ph ph-arrow-right"></i></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- REVIEWS (Stacked Glass Cards) -->
+        <section id="reviews" class="reviews">
+            <div class="reviews-container split-layout">
+                <div class="reviews-info reveal-up">
+                    <h2 class="section-title reveal-text">What Our <span class="highlight">Members</span> Say</h2>
+                    <div class="google-rating">
+                        <div class="stars">
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star-half"></i>
+                        </div>
+                        <p class="rating-text">4.8 Rating based on 61+ Google Reviews</p>
+                    </div>
+                    <a href="#" class="btn btn-outline mt-4">Read All Reviews</a>
+                </div>
+                
+                <div class="reviews-stack">
+                    <div class="review-card glass review-card-1">
+                        <div class="reviewer">
+                            <div class="r-avatar">J</div>
+                            <div class="r-details">
+                                <h4>Junaid R.</h4>
+                                <div class="r-stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
+                            </div>
+                        </div>
+                        <p>"Best gym in Srinagar. The equipment is top-notch and the trainers are incredibly friendly. The atmosphere is always motivating."</p>
+                    </div>
+                    <div class="review-card glass review-card-2">
+                        <div class="reviewer">
+                            <div class="r-avatar">S</div>
+                            <div class="r-details">
+                                <h4>Sana M.</h4>
+                                <div class="r-stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
+                            </div>
+                        </div>
+                        <p>"I feel extremely safe and comfortable working out here. It's truly women-friendly and the cleanliness is impeccable."</p>
+                    </div>
+                    <div class="review-card glass review-card-3">
+                        <div class="reviewer">
+                            <div class="r-avatar">F</div>
+                            <div class="r-details">
+                                <h4>Faisal A.</h4>
+                                <div class="r-stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
+                            </div>
+                        </div>
+                        <p>"Great ambience and a supportive fitness community. The personal training program helped me transform entirely in 3 months."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ (Accordion) -->
+        <section id="faq" class="faq">
+            <div class="section-header text-center">
+                <h2 class="section-title reveal-text">Frequently Asked <span class="highlight">Questions</span></h2>
+            </div>
+            
+            <div class="faq-container reveal-up">
+                <div class="faq-item glass">
+                    <div class="faq-question">
+                        <h3>What are the gym timings?</h3>
+                        <i class="ph ph-plus faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We are open from 6:00 AM to 10:00 PM, Monday through Saturday. Sunday timings are 8:00 AM to 2:00 PM.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item glass">
+                    <div class="faq-question">
+                        <h3>Is the gym safe and friendly for women?</h3>
+                        <i class="ph ph-plus faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely. We pride ourselves on maintaining a strictly professional, respectful, and highly secure environment. We have dedicated changing rooms and female trainers available.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item glass">
+                    <div class="faq-question">
+                        <h3>Do you provide diet guidance?</h3>
+                        <i class="ph ph-plus faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, diet guidance is included in our Premium and Elite membership plans. Our certified nutritionists will create a customized plan based on your goals.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item glass">
+                    <div class="faq-question">
+                        <h3>Is it beginner friendly?</h3>
+                        <i class="ph ph-plus faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>100%. Our trainers are always on the floor to guide you through machine setups, proper form, and basic routines to get you started safely.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item glass">
+                    <div class="faq-question">
+                        <h3>Is parking available?</h3>
+                        <i class="ph ph-plus faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, ample parking space is available at the City Square Mall premises for our members.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT & LOCATION -->
+        <section id="contact" class="contact">
+            <div class="contact-container split-layout">
+                <!-- Contact Info & Form -->
+                <div class="contact-form-wrapper glass reveal-up">
+                    <h2 class="section-title">Start Your <span class="highlight">Journey</span></h2>
+                    <p class="mb-4">Drop us a message or book a free trial session today.</p>
+                    
+                    <form class="custom-form">
+                        <div class="input-group">
+                            <input type="text" required placeholder="Full Name">
+                        </div>
+                        <div class="input-group">
+                            <input type="tel" required placeholder="Phone Number">
+                        </div>
+                        <div class="input-group">
+                            <select required>
+                                <option value="" disabled selected>Select Interest</option>
+                                <option value="trial">Book Free Trial</option>
+                                <option value="membership">Membership Inquiry</option>
+                                <option value="pt">Personal Training</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-glow w-100 mt-2">Send Request</button>
+                    </form>
+                    
+                    <div class="contact-details mt-4">
+                        <div class="c-detail">
+                            <i class="ph ph-map-pin"></i>
+                            <p>City Square Mall, Islamia College Entrance, Hawal, Srinagar, J&K 190001</p>
+                        </div>
+                        <div class="c-detail">
+                            <i class="ph ph-whatsapp-logo"></i>
+                            <p>+91 9906195114</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Map -->
+                <div class="map-wrapper glass reveal-scale">
+                    <!-- Embedded Map Placeholder (Styled to look premium) -->
+                    <div class="map-placeholder">
+                        <div class="map-overlay">
+                            <i class="ph-fill ph-map-pin"></i>
+                            <h3>Fitness SF</h3>
+                            <a href="https://maps.google.com/?q=City+Square+Mall+Srinagar" target="_blank" class="btn btn-outline btn-sm mt-2">Get Directions</a>
+                        </div>
+                        <!-- Normally an iframe goes here -->
+                        <div class="map-bg"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-bg-animation"></div>
+        <div class="footer-container glass">
+            <div class="footer-brand">
+                <h2 class="footer-logo">FITNESS SF</h2>
+                <p>The Unisex Gym</p>
+                <p class="footer-motto">Premium fitness experience in the heart of Srinagar.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="#about">About Us</a>
+                <a href="#equipment">Equipment</a>
+                <a href="#membership">Plans</a>
+                <a href="#trainers">Trainers</a>
+            </div>
+            
+            <div class="footer-hours">
+                <h3>Opening Hours</h3>
+                <p>Mon - Sat: 6:00 AM - 10:00 PM</p>
+                <p>Sun: 8:00 AM - 2:00 PM</p>
+            </div>
+            
+            <div class="footer-social">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="https://wa.me/919906195114" target="_blank" class="social-link glass-btn"><i class="ph ph-whatsapp-logo"></i></a>
+                    <a href="https://www.instagram.com/fitness_sf_the_unisex_gym/?hl=en" target="_blank" class="social-link glass-btn"><i class="ph ph-instagram-logo"></i></a>
+                    <a href="https://www.facebook.com/fitnesssfgym/" target="_blank" class="social-link glass-btn"><i class="ph ph-facebook-logo"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Fitness SF. Designed for Excellence.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="fab-container">
+        <button id="back-to-top" class="fab glass-btn hidden">
+            <i class="ph ph-arrow-up"></i>
+        </button>
+        <a href="https://wa.me/919906195114" target="_blank" class="fab whatsapp-fab">
+            <i class="ph ph-whatsapp-logo"></i>
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <!-- GSAP Core -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- GSAP ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- Lenis Smooth Scroll -->
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+    <!-- SwiperJS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
